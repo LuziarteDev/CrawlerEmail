@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.top{
+    background: #4b44bd;
+    height: 31%;
+    width: 100%;
+    border-radius: 27px 27px 0px 0px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 25px;
+    font-family: monospace;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 351px;
+    width: 28%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 9px #b1b1b1;
+    border-radius: 49px 49px 23px 23px;
+    padding: 0px 0px 18px 0px;
+
+}
+form label,
+form textarea{
+    width: 81%;
+    color: #525050;
+    height: 69px;
+}
+label{
+    margin-top: 38px;
+
+}
+textarea{
+    margin: 0px 0px 15px 0px;
+    width: 81%;
+    color: #525050;
+    border-radius: 9px;
+    height: 112px;
+    margin: 15px 0px 15px 0px;
+    resize: none;
+}
+button{
+    cursor: pointer;
+    background: #4b44bd;
+    color: #fff;
+    border-radius: 23px 23px 10px 10px;
+    padding: 11px 30px 11px 30px;
+    border-radius: 23px 23px 10px 10px;
+    border: 2px solid currentColor;
+    transition: 200ms;
+    margin-top: 29px;
+}
+button:hover{
+    background: transparent;
+    color: #4b44bd;
+    border: 2px solid currentColor;
+}
+
+.content-response{
+    flex-direction: column;
+    border: 1px solid #4b44bd;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #dedede;
+    width: 90%;
+    height: 90%;
+}
+.content-log{
+    overflow: scroll;
+    border: 1px solid currentColor;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 23px;
+    background: black;
+}
+.content-log p{
+    font-family: 'Inconsolata', monospace;
+    color: #46ea2b;
+    margin: 0px 10px 0px 10px;
+}
+.btn-back{
+    cursor: pointer;
+    background: #4b44bd;
+    color: #fff;
+    padding: 11px 45px 11px 45px;
+    border-radius: 19px;
+    border: 2px solid currentColor;
+    transition: 200ms;
+    margin: 0px 500px 0px 500px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.btn-back:hover{
+    background: transparent;
+    color: #4b44bd;
+    border: 2px solid currentColor;
+}
+.hide{
+    display:none;
+}
